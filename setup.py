@@ -30,7 +30,7 @@ extras_require = {
         'sphinx-rtd-theme',
     ],
     'checks': [
-        'tox~=3.2',
+        'tox>=3.2,<5.0',
         'doc8',
         'flake8',
         'flake8-bugbear',
